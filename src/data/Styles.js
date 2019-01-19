@@ -4,7 +4,7 @@
 // Usage
 // 1. First:
 // import * as lmnts from '../../../path/to/Styles'
-// 2. Use it in your SC: `color: ${lmnts.ClrWhite};`
+// 2. Use it in your SC: `color: ${lmnts.Clr.White};`
 
 
 module.exports = {
@@ -18,6 +18,7 @@ module.exports = {
     Base: {
       Size: 60,
       Type: 14,
+      BangerWidth: "20vh",
       Grid: {
         Nav: {
           LgSize: 200,
@@ -35,11 +36,11 @@ module.exports = {
   
     // Palette
     Clr: {
+      Cream: "#FAF9EE",
+      Tan: "#DEAD87",
+      Navy: "#002746",
       White: "#ffffff",
       Black: "#000000",
-      Flesh: "#F7D5BA",
-      Grey: "#e2e2e2",
-      ForestGrey: "#434343"
     },
   
     // Animations
@@ -48,7 +49,8 @@ module.exports = {
         Direction: "up",
         Type: "cover",
         Duration: 1,
-        Color: "#e2e2e2"
+        Color: "#e2e2e2",
+        Function: "ease"
       }
     }
   };

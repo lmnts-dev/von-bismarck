@@ -2,14 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import * as lmnts from '../data/Styles'
 
-const HeaderElement = styled.header`
+const FooterElement = styled.footer`
   display: flex;
 `
 
-const Header = ({ children }) => (
-  <HeaderElement>
+const Footer = ({ children }) => (
+  <FooterElement>
     {children}
-  </HeaderElement>
+  </FooterElement>
 )
 
-export default Header
+export default Footer

@@ -8,7 +8,6 @@ import PageBtn from '../components/PageBtn'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Bangers from '../components/Bangers'
-import ContactStrip from '../components/ContactStrip'
 import SEO from '../components/SEO'
 import * as lmnts from '../data/Styles'
 
@@ -24,23 +23,7 @@ const IndexPage = () => (
     <FlexCol>
       <Row>
         <Col>
-          <PageBtn label="Menu" to="menu" />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <PageBtn label="Contact" to="contact" />
-        </Col>
-        <Col>
-          <LogoType />
-        </Col>
-        <Col>
-          <PageBtn label="Info" to="info" />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <ContactStrip />
+          Contact
         </Col>
       </Row>
     </FlexCol>

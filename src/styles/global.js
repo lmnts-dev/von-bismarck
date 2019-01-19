@@ -61,6 +61,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box
   }
 
+  body::-moz-selection { color: red}
+  body::selection { color: red; }
+
   /* Typography Styles */
 
   body {
@@ -68,6 +71,18 @@ const GlobalStyle = createGlobalStyle`
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: ${lmnts.Fnt.Header};
+  }
+  a {
+    text-decoration: none;
+  }
+  .gockpK {
+    display: none !important;
+  }
+
+  /* Palette */
+  body { 
+    background-color: ${props => borderColor};
+    color: ${lmnts.Clr.Navy};
   }
 `
 export default GlobalStyle
