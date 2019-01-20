@@ -5,6 +5,7 @@ import Tilt from 'react-tilt'
 
 const DankeLargeElement = styled.img`
   width: 45vw;
+  margin-bottom: 3vw;
 `
 
 const DankeLarge = () => (

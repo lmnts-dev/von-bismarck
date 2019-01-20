@@ -4,6 +4,7 @@ import Row from '../components/Row'
 import FlexCol from '../components/FlexCol'
 import Col from '../components/Col'
 import SEO from '../components/SEO'
+import PageHeader from '../components/PageHeader'
 import LosGehts from '../components/images/LosGehts'
 import * as lmnts from '../data/Styles'
 import { Link, StaticQuery, graphql } from 'gatsby'
@@ -31,6 +32,7 @@ const InfoPage = () => (
       borderColor={lmnts.Clr.Cream}
       wrapBg={lmnts.Clr.Tan}
     >
+    <PageHeader label="Info" />
       <StaticQuery
         query={siteData}
         render={data => {

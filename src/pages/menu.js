@@ -5,6 +5,7 @@ import FlexCol from '../components/FlexCol'
 import Col from '../components/Col'
 import Footer from '../components/Footer'
 import SEO from '../components/SEO'
+import PageHeader from '../components/PageHeader'
 import * as lmnts from '../data/Styles'
 import { Link } from 'gatsby'
 
@@ -15,6 +16,7 @@ const IndexPage = () => (
       borderColor={lmnts.Clr.Cream}
       wrapBg={lmnts.Clr.Tan}
     >
+    <PageHeader label="Menu" />
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <FlexCol>
         <Row>

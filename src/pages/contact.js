@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import Row from '../components/Row'
 import FlexCol from '../components/FlexCol'
 import Col from '../components/Col'
+import PageHeader from '../components/PageHeader'
 import DankeLarge from '../components/images/DankeLarge'
 import SEO from '../components/SEO'
 import * as lmnts from '../data/Styles'
@@ -18,7 +19,6 @@ const ContactBody = styled.p`
   font-size: 1vw;
   position: relative;
   text-transform: uppercase;
-  padding-top: 5vh;
 `
 
 const LinkWrap = styled(Link)`
@@ -32,6 +32,7 @@ const InfoPage = () => (
       borderColor={lmnts.Clr.Cream}
       wrapBg={lmnts.Clr.Tan}
     >
+    <PageHeader label="Contact" />
       <StaticQuery
         query={siteData}
         render={data => {
