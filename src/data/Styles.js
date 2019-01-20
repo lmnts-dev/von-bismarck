@@ -41,7 +41,7 @@ module.exports = {
       }
     },
   
-    // Palette
+    // Color Palette
     Clr: {
       Cream: "#FAF9EE",
       DarkCream: "#E5E3CA",
