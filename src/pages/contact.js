@@ -7,7 +7,7 @@ import PageHeader from '../components/PageHeader'
 import DankeLarge from '../components/images/DankeLarge'
 import SEO from '../components/SEO'
 import * as lmnts from '../data/Styles'
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
@@ -20,6 +20,10 @@ const ContactBody = styled.p`
   font-size: 1vw;
   position: relative;
   text-transform: uppercase;
+  padding: 5px;
+  @media (max-width: ${lmnts.Base.Screen.Sm + 'px'}) {
+    font-size: 3vw;
+  }
 `
 
 const LinkWrap = styled(AniLink)`

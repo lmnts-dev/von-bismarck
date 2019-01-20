@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import * as lmnts from '../data/Styles'
 
 const PageBtnElement = styled.span`
@@ -11,7 +11,6 @@ const PageBtnElement = styled.span`
   color: ${lmnts.Clr.Navy};
   text-decoration: none;
   line-height: 0;
-  height: 7.5vh;
   align-items: center;
 
   &:before,
@@ -23,6 +22,9 @@ const PageBtnElement = styled.span`
     background-color: ${lmnts.Clr.Tan};
     transition: transform 0.5s ease;
     transform: scaleX(1);
+    @media (max-width: ${lmnts.Base.Screen.Sm + 'px'}) {
+      height: 4px;
+    }
   }
 
   &:before {
@@ -37,11 +39,27 @@ const PageBtnElement = styled.span`
     &:before,
     &:after {
       transform: scaleX(1.2);
+      @media (max-width: ${lmnts.Base.Screen.Sm + 'px'}) {
+        transform: scaleX(1);
+      }
     }
   }
 
-  @media(max-width:${lmnts.Base.Screen.Sm + "px"}) {
-    line-height: 1.2;
+  @media (max-width: ${lmnts.Base.Screen.Sm + 'px'}) {
+    font-size: 4vw;
+    width: 100%;
+    text-align: center;
+    &:before {
+      display: none;
+    }
+    ${props => {
+      if (props.lineTop)
+        return `
+        &:before {
+          display: block;
+        }
+    `
+    }};
   }
 `
 
@@ -52,6 +70,11 @@ const PageLink = styled(AniLink)`
   span {
     position: relative;
     z-index: 2;
+    height: 7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
   }
   &:after {
     content: '';
@@ -67,6 +90,9 @@ const PageLink = styled(AniLink)`
     transition: width 1s ease;
     -webkit-transition: width 1s ease;
     z-index: 1;
+    @media (max-width: ${lmnts.Base.Screen.Sm + 'px'}) {
+      height: 5vw;
+    }
   }
 
   &:hover {
@@ -76,11 +102,29 @@ const PageLink = styled(AniLink)`
       background: ${lmnts.Clr.DarkCream};
     }
   }
+  @media (max-width: ${lmnts.Base.Screen.Sm + 'px'}) {
+    font-size: 5vw;
+    width: 100%;
+    text-align: center;
+    span {
+      width: 100%;
+    }
+  }
 `
 
-const PageBtn = ({ label, to, absolute, animDirection }) => (
-  <PageBtnElement absolute={absolute} animDirection={animDirection}>
-    <PageLink bg={lmnts.Clr.Tan} to={to} cover bg={lmnts.Clr.Cream} duration={lmnts.Anim.Page.Duration} direction={animDirection}>
+const PageBtn = ({ label, to, absolute, animDirection, lineTop }) => (
+  <PageBtnElement
+    lineTop={lineTop}
+    absolute={absolute}
+    animDirection={animDirection}
+  >
+    <PageLink
+      bg={lmnts.Clr.Tan}
+      to={to}
+      cover
+      duration={lmnts.Anim.Page.Duration}
+      direction={animDirection}
+    >
       <span>{label}</span>
     </PageLink>
   </PageBtnElement>

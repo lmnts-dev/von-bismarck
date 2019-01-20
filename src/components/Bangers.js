@@ -1,6 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
 import * as lmnts from '../data/Styles'
+import styled from 'styled-components'
 import SocialRow from '../components/SocialRow'
 import Birds from '../components/images/Birds'
 import Flowers from '../components/images/Flowers'

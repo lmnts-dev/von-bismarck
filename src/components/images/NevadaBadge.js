@@ -6,7 +6,7 @@ import * as lmnts from '../../data/Styles'
 const NevBadgeElement = styled.img`
   width: 8vh;
   @media(max-width:${lmnts.Base.Screen.Sm + "px"}) {
-    width: 30vw;
+    width: 12vh;
   }
 `
 

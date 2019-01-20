@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import * as lmnts from '../data/Styles'
+import MediaQuery from 'react-responsive'
 import Danke from '../components/images/Danke'
 
 const SocialRowElement = styled.div`
@@ -10,7 +11,7 @@ const SocialRowElement = styled.div`
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 0 ${lmnts.Base.Size + 'px'};
-    font-size: 0.6vw;
+    font-size: 0.8vw;
     a {
       text-decoration: none;
       color: ${lmnts.Clr.Navy};
@@ -41,19 +42,31 @@ const SocialRowElement = styled.div`
 
 const SocialRow = () => (
   <SocialRowElement>
-    <span>
-      <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank">
-        Facebook
-      </a>
-    </span>
+    <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
+      <span>
+        <a
+          href="https://facebook.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Facebook
+        </a>
+      </span>
+    </MediaQuery>
     <span>
       <Danke />
     </span>
-    <span>
-      <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank">
-        Instagram
-      </a>
-    </span>
+    <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
+      <span>
+        <a
+          href="https://facebook.com/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Instagram
+        </a>
+      </span>
+    </MediaQuery>
   </SocialRowElement>
 )
 
