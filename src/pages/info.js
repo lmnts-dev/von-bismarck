@@ -6,6 +6,7 @@ import Col from '../components/Col'
 import SEO from '../components/SEO'
 import PageHeader from '../components/PageHeader'
 import LosGehts from '../components/images/LosGehts'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import * as lmnts from '../data/Styles'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
@@ -21,12 +22,12 @@ const InfoBody = styled.p`
   top: -4vh;
 `
 
-const LinkWrap = styled(Link)`
+const LinkWrap = styled(AniLink)`
   text-decoration: none;
 `
 
 const InfoPage = () => (
-  <LinkWrap to="/">
+  <LinkWrap to="/" cover bg={lmnts.Clr.Cream} duration={lmnts.Anim.Page.Duration} direction="right">
     <Layout
       bgColor={lmnts.Clr.Cream}
       borderColor={lmnts.Clr.Cream}

@@ -1,6 +1,18 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import * as lmnts from '../data/Styles'
+
+const AnimHeight = keyframes`
+  from {
+    transform-origin: top center;
+    transform: scaleY(0);
+  }
+
+  to {
+    transform-origin: top center;
+    transform: scaleY(1);
+  }
+`
 
 const PageHeaderElement = styled.div`
   position: absolute;
@@ -13,7 +25,7 @@ const PageHeaderElement = styled.div`
     display:block;
     position: relative;
     font-size: .8vw;
-    padding-top: ${lmnts.Base.Size*1.5 + "px"};
+    padding-top: ${lmnts.Base.Size * 1.5 + 'px'};
     &:before {
       content:'';
       position: absolute;
@@ -21,8 +33,10 @@ const PageHeaderElement = styled.div`
       left: 50%;
       top: -1px;
       width: 1px;
-      height: ${lmnts.Base.Size + "px"};
+      height: ${lmnts.Base.Size + 'px'};
       background-color: ${lmnts.Clr.White};
+      animation: ${AnimHeight} 1s ease;
+      animation-fill-mode: forwards;
   }
 `
 

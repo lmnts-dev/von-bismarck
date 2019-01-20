@@ -9,6 +9,7 @@ import SEO from '../components/SEO'
 import * as lmnts from '../data/Styles'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const ContactBody = styled.p`
   color: ${lmnts.Clr.Navy};
@@ -21,12 +22,12 @@ const ContactBody = styled.p`
   text-transform: uppercase;
 `
 
-const LinkWrap = styled(Link)`
+const LinkWrap = styled(AniLink)`
   text-decoration: none;
 `
 
 const InfoPage = () => (
-  <LinkWrap to="/">
+  <LinkWrap to="/" cover bg={lmnts.Clr.Cream} duration={lmnts.Anim.Page.Duration} direction="left">
     <Layout
       bgColor={lmnts.Clr.Cream}
       borderColor={lmnts.Clr.Cream}

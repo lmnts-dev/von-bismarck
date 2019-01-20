@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import * as lmnts from '../data/Styles'
 
 const PageBtnElement = styled.span`
@@ -68,7 +68,7 @@ const PageBtnElement = styled.span`
   }};
 `
 
-const PageLink = styled(Link)`
+const PageLink = styled(AniLink)`
   text-decoration: none;
   color: ${lmnts.Clr.Navy};
   position: relative;
@@ -101,9 +101,9 @@ const PageLink = styled(Link)`
   }
 `
 
-const PageBtn = ({ label, to, absolute }) => (
-  <PageBtnElement absolute={absolute}>
-    <PageLink to={to}>
+const PageBtn = ({ label, to, absolute, animDirection }) => (
+  <PageBtnElement absolute={absolute} animDirection={animDirection}>
+    <PageLink bg={lmnts.Clr.Tan} to={to} cover bg={lmnts.Clr.Cream} duration={lmnts.Anim.Page.Duration} direction={animDirection}>
       <span>{label}</span>
     </PageLink>
   </PageBtnElement>

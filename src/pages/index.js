@@ -24,18 +24,18 @@ const IndexPage = () => (
     <FlexCol>
       <Row flexDirection="row" alignItems="center" justifyContent="space-between" height="29vh">
         <Col>
-          <PageBtn label="Menu" to="menu" />
+          <PageBtn label="Menu" to="menu" animDirection="down" />
         </Col>
       </Row>
       <Row flexDirection="row" alignItems="center" justifyContent="space-between" height="29vh">
         <Col>
-          <PageBtn label="Contact" to="contact" />
+          <PageBtn label="Contact" to="contact" animDirection="right" />
         </Col>
         <Col>
           <LogoType />
         </Col>
         <Col>
-          <PageBtn label="Info" to="info" />
+          <PageBtn label="Info" to="info" animDirection="left" />
         </Col>
       </Row>
       <Row flexDirection="row" alignItems="center" justifyContent="space-between" height="29vh">

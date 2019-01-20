@@ -7,10 +7,15 @@ import Footer from '../components/Footer'
 import SEO from '../components/SEO'
 import PageHeader from '../components/PageHeader'
 import * as lmnts from '../data/Styles'
-import { Link } from 'gatsby'
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+import styled from 'styled-components'
+
+const LinkWrap = styled(AniLink)`
+  text-decoration: none;
+`
 
 const IndexPage = () => (
-  <Link to="/">
+  <LinkWrap to="/" cover bg={lmnts.Clr.Cream} duration={lmnts.Anim.Page.Duration} direction="up">
     <Layout
       bgColor={lmnts.Clr.Cream}
       borderColor={lmnts.Clr.Cream}
@@ -31,7 +36,7 @@ const IndexPage = () => (
       </FlexCol>
       <Footer />
     </Layout>
-  </Link>
+  </LinkWrap>
 )
 
 export default IndexPage
