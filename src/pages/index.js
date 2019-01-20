@@ -22,12 +22,12 @@ const IndexPage = () => (
     <Bangers />
     <Header />
     <FlexCol>
-      <Row>
+      <Row flexDirection="row" alignItems="center" justifyContent="space-between" height="29vh">
         <Col>
           <PageBtn label="Menu" to="menu" />
         </Col>
       </Row>
-      <Row>
+      <Row flexDirection="row" alignItems="center" justifyContent="space-between" height="29vh">
         <Col>
           <PageBtn label="Contact" to="contact" />
         </Col>
@@ -38,7 +38,7 @@ const IndexPage = () => (
           <PageBtn label="Info" to="info" />
         </Col>
       </Row>
-      <Row>
+      <Row flexDirection="row" alignItems="center" justifyContent="space-between" height="29vh">
         <Col>
           <ContactStrip />
         </Col>

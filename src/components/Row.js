@@ -3,14 +3,40 @@ import styled from 'styled-components'
 
 const RowElement = styled.div`
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  height: 29vh;
+  width: 100%;
+  ${props => {
+    if (props.height)
+      return `
+        height: ${props.height}
+    `
+    if (props.flexDirection)
+      return `
+        flex-direction: ${props.flexDirection}
+    `
+    if (props.alignItems)
+      return `
+        align-items: ${props.alignItems}
+    `
+    if (props.justifyContent)
+      return `
+        justify-content: ${props.justifyContent}
+    `
+  }};
 `
 
-const Row = ({ children }) => (
-  <RowElement>
+const Row = ({
+  children,
+  height,
+  flexDirection,
+  alignItems,
+  justifyContent
+}) => (
+  <RowElement
+    height={height}
+    flexDirection={flexDirection}
+    alignItems={alignItems}
+    justifyContent={justifyContent}
+  >
     {children}
   </RowElement>
 )

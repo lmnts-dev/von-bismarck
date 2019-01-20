@@ -5,6 +5,8 @@ import Tilt from 'react-tilt'
 
 const LogoTypeLmnt = styled.img`
   width: 45vw;
+  z-index: 99;
+  position: relative;
 `
 
 const LogoType = () => (
