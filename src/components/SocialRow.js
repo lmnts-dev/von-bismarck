@@ -9,21 +9,50 @@ const SocialRowElement = styled.div`
   span {
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 0 ${lmnts.Base.Size + "px"};
-    font-size: .6vw;
+    padding: 0 ${lmnts.Base.Size + 'px'};
+    font-size: 0.6vw;
+    a {
+      text-decoration: none;
+      color: ${lmnts.Clr.Navy};
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        display: block;
+        margin-top: 5px;
+        right: 0;
+        background: ${lmnts.Clr.Navy};
+        transition: width 1s ease;
+        -webkit-transition: width 1s ease;
+      }
+
+      &:hover {
+        &:after {
+          width: 100%;
+          left: 0;
+          background: ${lmnts.Clr.Navy};
+        }
+      }
+    }
   }
 `
 
 const SocialRow = () => (
   <SocialRowElement>
     <span>
-      Facebook
+      <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank">
+        Facebook
+      </a>
     </span>
     <span>
       <Danke />
     </span>
     <span>
-      Instagram
+      <a href="https://facebook.com/" rel="noopener noreferrer" target="_blank">
+        Instagram
+      </a>
     </span>
   </SocialRowElement>
 )

@@ -7,7 +7,6 @@ import Flowers from '../components/images/Flowers'
 import NevadaBadge from '../components/images/NevadaBadge'
 
 const BangersElement = styled.div`
-  pointer-events: none;
   position: absolute;
   left: 0;
   right: 0;
@@ -48,11 +47,11 @@ const CenterTop = styled.div`
   transform: translateX(-50%);
 `
 const CenterBottom = styled.div`
-  pointer-events: none;
   position: absolute;
   bottom: ${lmnts.Base.Grid.Gutter.Right + "px"};
   left: 50%;
   transform: translateX(-50%);
+  z-index: 600;
 `
 
 const Bangers = () => (

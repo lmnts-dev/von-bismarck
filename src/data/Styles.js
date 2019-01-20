@@ -37,6 +37,7 @@ module.exports = {
     // Palette
     Clr: {
       Cream: "#FAF9EE",
+      DarkCream: "#E5E3CA",
       Tan: "#DEAD87",
       Navy: "#002746",
       White: "#ffffff",

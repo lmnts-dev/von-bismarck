@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import * as lmnts from '../data/Styles'
 
 const ColElement = styled.div`
   display: flex;

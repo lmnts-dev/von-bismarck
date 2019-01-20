@@ -1,6 +1,5 @@
 import React from 'react'
 import nevada from '../../images/ico-vb-nv.svg'
-import * as lmnts from '../../data/Styles'
 import styled from 'styled-components'
 
 const NevBadgeElement = styled.img`
