@@ -5,10 +5,11 @@ import styled from 'styled-components'
 
 const BirdsElement = styled.img`
   width: ${lmnts.Base.BangerWidth};
+  @media (max-width: ${lmnts.Base.Screen.Sm + "px"}) {
+    width: 20vw;
+  }
 `
 
-const Birds = () => (
-  <BirdsElement src={birds} alt="Von Bismarck" />
-)
+const Birds = () => <BirdsElement src={birds} alt="Von Bismarck" />
 
 export default Birds

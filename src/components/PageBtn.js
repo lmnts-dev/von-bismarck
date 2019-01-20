@@ -40,32 +40,9 @@ const PageBtnElement = styled.span`
     }
   }
 
-  ${props => {
-    if (props.absolute === 'bottomLeft')
-      return `
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    `
-    if (props.absolute === 'bottomRight')
-      return `
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    `
-    if (props.absolute === 'topLeft')
-      return `
-        position: absolute;
-        top: 0
-        left: 0;
-    `
-    if (props.absolute === 'topRight')
-      return `
-        position: absolute;
-        top: 0;
-        right: 0;
-    `
-  }};
+  @media(max-width:${lmnts.Base.Screen.Sm + "px"}) {
+    line-height: 1.2;
+  }
 `
 
 const PageLink = styled(AniLink)`

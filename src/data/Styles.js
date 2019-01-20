@@ -18,7 +18,14 @@ module.exports = {
     Base: {
       Size: 60,
       Type: 14,
-      BangerWidth: "20vh",
+      BangerWidth: "12vw",
+      Screen: {
+        Xs: 448,
+        Sm: 678,
+        Md: 1024,
+        Lg: 1280,
+        Xl: 1440
+      },
       Grid: {
         Nav: {
           LgSize: 200,
