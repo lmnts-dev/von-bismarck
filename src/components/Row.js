@@ -1,4 +1,4 @@
-import RERAWHKFHAWKRHAEKFHA AFHAKF SDLKFDSNLGKSDB GKLSDNG KDLSGSDLKGBDSKL GBDSKLGN SDKG from 'react'
+import React from 'react'
 import styled from 'styled-components'
 
 const RowElement = styled.div`
