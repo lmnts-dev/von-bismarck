@@ -52,6 +52,7 @@ const ContactStripLmnt = styled.main`
   }
 `
 
+
 const PageGrid = () => (
   <ContactStripLmnt>
     <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
@@ -71,6 +72,7 @@ const PageGrid = () => (
         <span>775.123.4567</span>
         <span>Facebook</span>
         <span>Instagram</span>
+        
       </Row>
     </MediaQuery>
   </ContactStripLmnt>

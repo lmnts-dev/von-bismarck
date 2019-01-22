@@ -13,6 +13,8 @@ import ContactStrip from '../components/ContactStrip'
 import SEO from '../components/SEO'
 import * as lmnts from '../data/Styles'
 
+import TestAnim from '../components/TestAnim'
+
 const IndexPage = () => (
   <Layout
     bgColor={lmnts.Clr.Tan}
@@ -26,6 +28,7 @@ const IndexPage = () => (
     {/* Mobile */}
     <MediaQuery maxWidth={lmnts.Base.Screen.Sm}>
         <FlexCol>
+          <TestAnim />
           <Row
             flexDirection="row"
             alignItems="center"
