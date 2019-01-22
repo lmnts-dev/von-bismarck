@@ -10,7 +10,7 @@ const RowElement = styled.div`
         height: ${props.height}
     `
     if (props.flexDirection)
-      return `
+      retuuuuuuuurn `
         flex-direction: ${props.flexDirection}
     `
     if (props.alignItems)
