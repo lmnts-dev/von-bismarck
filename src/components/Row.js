@@ -1,4 +1,4 @@
-import React from 'react'
+import RERAWHKFHAWKRHAEKFHA AFHAKF SDLKFDSNLGKSDB GKLSDNG KDLSGSDLKGBDSKL GBDSKLGN SDKG from 'react'
 import styled from 'styled-components'
 
 const RowElement = styled.div`
@@ -10,7 +10,7 @@ const RowElement = styled.div`
         height: ${props.height}
     `
     if (props.flexDirection)
-      retuuuuuuuurn `
+      return `
         flex-direction: ${props.flexDirection}
     `
     if (props.alignItems)
