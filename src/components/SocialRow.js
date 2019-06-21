@@ -45,11 +45,11 @@ const SocialRow = () => (
     <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
       <span>
         <a
-          href="https://facebook.com/"
+          href="tel:7756223687"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Facebook
+          775.622.3687
         </a>
       </span>
     </MediaQuery>
@@ -59,7 +59,7 @@ const SocialRow = () => (
     <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
       <span>
         <a
-          href="https://facebook.com/"
+          href="https://www.instagram.com/vonbismarckreno/"
           rel="noopener noreferrer"
           target="_blank"
         >

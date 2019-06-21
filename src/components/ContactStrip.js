@@ -49,6 +49,13 @@ const ContactStripLmnt = styled.main`
         width: ${dotSize/3 + 'px'};
       }
     }
+    a {
+      color: ${lmnts.Clr.Navy};
+      &:first-of-type {
+        margin-right: ${lmnts.Base.Size / 4 + "px"};
+        pointer-events: all;
+      }
+    }
   }
 `
 
@@ -56,23 +63,34 @@ const ContactStripLmnt = styled.main`
 const PageGrid = () => (
   <ContactStripLmnt>
     <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
-      <span>123 Wells Avenue</span>
-      <span>Reno</span>
-      <span>Nevada</span>
-      <span>775.123.4567</span>
+      <span>805 S Wells Ave</span>
+      <span>Reno, NV</span>
+      <span>Wed-Sun</span>
+      <span>5pm-11pm</span>
     </MediaQuery>
 
     <MediaQuery maxWidth={lmnts.Base.Screen.Sm}>
       <Row justifyContent="center">
-        <span>123 Wells Avenue</span>
-        <span>Reno</span>
-        <span>Nevada</span>
+        <span>805 S Wells Ave</span>
+        <span>Reno, NV</span>
+        <span>Wed-Sun </span>
+        <span>5pm-11pm</span>
       </Row>
       <Row justifyContent="center">
-        <span>775.123.4567</span>
-        <span>Facebook</span>
-        <span>Instagram</span>
-        
+        <a
+          href="tel:7756223687"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          775.622.3687
+        </a>
+        <a
+          href="https://www.instagram.com/vonbismarckreno/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Instagram
+        </a>
       </Row>
     </MediaQuery>
   </ContactStripLmnt>

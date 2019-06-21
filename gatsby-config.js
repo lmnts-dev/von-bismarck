@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: `Von Bismarck - Reno`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc quam, tincidunt vel tellus vel, posuere vehicula dolor. Sed a dui sagittis, tempus velit vel, facilisis magna.`,
+    description: `Von Bismarck features about a dozen draft beers, including highly regarded Ayinger Celebrator Doppelbock, a rich full lager first brewed by Bavarian monks.`,
     longDescription:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc quam, tincidunt vel tellus vel, posuere vehicula dolor. Sed a dui sagittis, tempus velit vel, facilisis magna. Nulla ante libero, venenatis at sapien at, scelerisque sodales nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet turpis mollis, convallis nisi in, bibendum tellus. Donec sollicitudin quis quam et mollis. Proin molestie felis ipsum, in porttitor tortor condimentum nec. Suspendisse eu lectus mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer pharetra metus nec justo tempus iaculis. ',
-    email: 'booking@vonbismarckreno.com',
-    phone: '775.123.4567',
-    street: '123 Wells Avenue',
+      'Von Bismarck features about a dozen draft beers, including highly regarded Ayinger Celebrator Doppelbock, a rich full lager first brewed by Bavarian monks. The opening menu at Von Bismarck offers smaller and larger plates, nearly two dozen in all. There are housemade pretzels with cheese sauce for dredging and housemade quark (a soft fresh cheese used in traditional German cheesecake, for one).',
+    email: 'info@vbreno.com',
+    phone: '775.622.3687',
+    street: '805 S Wells Ave 89502',
     city: 'Reno',
+    hours: 'Wednesday-Sunday 5pm-11pm',
     state: 'Nevada',
     author: `@laxaltandmciver`,
   },

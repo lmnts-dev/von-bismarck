@@ -13,7 +13,7 @@ import ContactStrip from '../components/ContactStrip'
 import SEO from '../components/SEO'
 import * as lmnts from '../data/Styles'
 
-import TestAnim from '../components/TestAnim'
+/*import TestAnim from '../components/TestAnim'*/
 
 const IndexPage = () => (
   <Layout
@@ -28,7 +28,7 @@ const IndexPage = () => (
     {/* Mobile */}
     <MediaQuery maxWidth={lmnts.Base.Screen.Sm}>
         <FlexCol>
-          <TestAnim />
+         {/* <TestAnim /> */}
           <Row
             flexDirection="row"
             alignItems="center"
@@ -38,15 +38,20 @@ const IndexPage = () => (
               <LogoType />
             </Col>
           </Row>
+          
           <Row
             flexDirection="row"
             alignItems="center"
             justifyContent="space-between"
           >
             <Col>
+            {/*
               <PageBtn label="Menu" to="menu" lineTop animDirection="down" />
+            */}
             </Col>
           </Row>
+          
+
           <Row
             flexDirection="row"
             alignItems="center"
@@ -80,6 +85,7 @@ const IndexPage = () => (
       {/* Desktop */}
       <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
         <FlexCol>
+          
           <Row
             flexDirection="row"
             alignItems="center"
@@ -87,9 +93,12 @@ const IndexPage = () => (
             height="29vh"
           >
             <Col>
+            {/*
               <PageBtn label="Menu" to="menu" animDirection="down" />
+            */}
             </Col>
           </Row>
+          
           <Row
             flexDirection="row"
             alignItems="center"
