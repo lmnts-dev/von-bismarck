@@ -27,6 +27,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: title,
               },
               {
+                property: `og:image`,
+                content: '/src/images/VB-opengraph.png',
+              },
+              {
                 property: `og:description`,
                 content: metaDescription,
               },
