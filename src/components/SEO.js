@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
+import opengraph from "../images/VB-opengraph.jpg"
 
 function SEO({ description, lang, meta, keywords, title }) {
   return (
@@ -28,11 +29,19 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:image`,
-                content: 'https://github.com/lmnts-dev/von-bismarck/blob/master/src/images/VB-opengraph.jpg?raw=true',
+                content: opengraph,
               },
               {
                 property: `og:description`,
                 content: metaDescription,
+              },
+              {
+                propery:`og:image:width`,
+                content: `400`
+              },
+              {
+                propery: `og:image:height`,
+                content: `259`
               },
               {
                 property: `og:type`,
