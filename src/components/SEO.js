@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:image`,
-                content: '/src/images/VB-opengraph.png',
+                content: 'https://github.com/lmnts-dev/von-bismarck/blob/master/src/images/VB-opengraph.jpg?raw=true',
               },
               {
                 property: `og:description`,
