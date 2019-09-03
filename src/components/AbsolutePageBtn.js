@@ -100,7 +100,7 @@ const PageBtnElement = styled.span`
   }
 `
 
-const PageLink = styled(AniLink)`
+const PageLink = styled.a`
   text-decoration: none;
   color: ${lmnts.Clr.Navy};
   position: relative;
@@ -177,16 +177,7 @@ const PageBtn = ({
     animDirection={animDirection}
     altBtn={altBtn}
   >
-
-
-    <PageLink
-      bg={lmnts.Clr.Tan}
-      to={to}
-      altBtn={altBtn}
-      cover
-      duration={lmnts.Anim.Page.Duration}
-      direction={animDirection}
-    >
+    <PageLink href={to} bg={lmnts.Clr.Tan} to={to} altBtn={altBtn}>
       <span>{label}</span>
     </PageLink>
   </PageBtnElement>

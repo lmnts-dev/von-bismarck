@@ -65,7 +65,7 @@ const PageGrid = () => (
     <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
       <span>805 S Wells Ave</span>
       <span>Reno, NV</span>
-      <span>Wed-Sat 5pm-11pm </span>
+      <span>Wed-Sat 3pm-CLOSE </span>
       <span>Sun 2pm-9pm</span>
     </MediaQuery>
 
@@ -75,7 +75,7 @@ const PageGrid = () => (
         <span>Reno, NV</span>
       </Row>
       <Row justifyContent="center">
-        <span>Wed-Sat 5pm-11pm </span>
+        <span>Wed-Sat 3pm-CLOSE </span>
         <span>Sun 2pm-9pm</span>
       </Row>
       <Row justifyContent="center">

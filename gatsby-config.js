@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Von Bismarck - Reno`,
-    description: `Von Bismarck features about a dozen draft beers, including highly regarded Ayinger Celebrator Doppelbock, a rich full lager first brewed by Bavarian monks.`,
+    description: `Von Bismarck is a modern family style restaurant inspired by the traditions of Eastern and Northern Europe with a focus on low intervention wine and traditional beer styles.`,
     longDescription:
-      'Von Bismarck features about a dozen draft beers, including highly regarded Ayinger Celebrator Doppelbock, a rich full lager first brewed by Bavarian monks. The opening menu at Von Bismarck offers smaller and larger plates, nearly two dozen in all. There are housemade pretzels with cheese sauce for dredging and housemade quark (a soft fresh cheese used in traditional German cheesecake, for one).',
+      'Von Bismarck is a modern family style restaurant inspired by the traditions of Eastern and Northern Europe with a focus on low intervention wine and traditional beer styles. Helmed by Chef Scott Arn, formerly of Mugaritz, Von Bismarck aims to focus the best of the old world through a modern lens and present it in an atmosphere of conviviality and generosity. We believe communal seating and family style presentation are conducive to this end. Sharing a meal, whether with those you love or complete strangers is essential to the human experience and all of us here at Von Bismarck hope to help you on that journey.',
     email: 'info@vbreno.com',
     phone: '775.622.3687',
     street: '805 S Wells Ave 89502',
