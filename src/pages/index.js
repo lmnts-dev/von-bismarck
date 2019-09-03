@@ -78,7 +78,7 @@ const IndexPage = () => (
             <Ribbon />
             <AbsolutePageBtn
               label="Reserve a Table"
-              to="www.oktoberfest.vbreno.com"
+              to="https://oktoberfest.vbreno.com/"
               altBtn
             />
             <ContactStrip />
@@ -126,7 +126,7 @@ const IndexPage = () => (
             <Ribbon />
             <AbsolutePageBtn
               label="Reserve a Table"
-              to="www.oktoberfest.vbreno.com"
+              to="https://oktoberfest.vbreno.com/"
               altBtn
             />
           </Col>
