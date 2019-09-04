@@ -160,7 +160,6 @@ const PageLink = styled.a`
     }};
   }
 `
-const AbsolutePageLink = styled.div``
 
 const PageBtn = ({
   label,

@@ -122,6 +122,7 @@ const IndexPage = () => (
           height="29vh"
         >
           <Col>
+
             <ContactStrip />
             <Ribbon />
             <AbsolutePageBtn

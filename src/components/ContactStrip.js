@@ -79,11 +79,7 @@ const PageGrid = () => (
         <span>Sun 2pm-9pm</span>
       </Row>
       <Row justifyContent="center">
-        <a
-          href="tel:7756223687"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
+        <a href="tel:7756223687" rel="noopener noreferrer" target="_blank">
           775.622.3687
         </a>
         <a
