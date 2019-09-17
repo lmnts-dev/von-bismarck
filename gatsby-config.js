@@ -8,7 +8,7 @@ module.exports = {
     phone: '775.622.3687',
     street: '805 S Wells Ave 89502',
     city: 'Reno',
-    hours: 'Wednesday-Sunday 5pm-11pm',
+    hours: 'Wednesday-Sunday 11am-CLOSE',
     state: 'Nevada',
     author: `@laxaltandmciver`,
   },

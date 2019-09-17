@@ -65,8 +65,7 @@ const PageGrid = () => (
     <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
       <span>805 S Wells Ave</span>
       <span>Reno, NV</span>
-      <span>Wed-Sat 3pm-CLOSE </span>
-      <span>Sun 2pm-9pm</span>
+      <span>Wed-Sun 11am-CLOSE </span>
     </MediaQuery>
 
     <MediaQuery maxWidth={lmnts.Base.Screen.Sm}>
@@ -75,8 +74,7 @@ const PageGrid = () => (
         <span>Reno, NV</span>
       </Row>
       <Row justifyContent="center">
-        <span>Wed-Sat 3pm-CLOSE </span>
-        <span>Sun 2pm-9pm</span>
+        <span>Wed-Sun 11am-CLOSE </span>
       </Row>
       <Row justifyContent="center">
         <a href="tel:7756223687" rel="noopener noreferrer" target="_blank">
