@@ -11,7 +11,7 @@ menus:
   cocktail_menu: "/uploads/Cocktails.pdf"
   wine_beer_menu: "/uploads/Wine-Beer-1.pdf"
   dinner_menu: "/uploads/Dinner.pdf"
-  bar_snacks_menu: ''
+  bar_snacks_menu: "/uploads/Snacks.pdf"
 
 ---
 # This post was edited in Forestry![](/uploads/salty_egg.jpg)
