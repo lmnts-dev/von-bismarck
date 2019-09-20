@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Row from '../components/Row'
-import FlexCol from '../components/FlexCol'
 import Col from '../components/Col'
 import Footer from '../components/Footer'
 import SEO from '../components/SEO'

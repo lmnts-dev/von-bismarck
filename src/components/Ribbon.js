@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import * as lmnts from '../data/Styles'
-import PageBtn from './PageBtn'
 
 const Container = styled.div`
   display: flex;

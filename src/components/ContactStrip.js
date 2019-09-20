@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import * as lmnts from '../data/Styles'
 import Row from '../components/Row'
 import MediaQuery from 'react-responsive'
+import { StaticQuery, graphql } from 'gatsby'
 
 const spacing = 70
 const dotSize = 4
@@ -61,35 +62,54 @@ const ContactStripLmnt = styled.main`
 
 
 const PageGrid = () => (
-  <ContactStripLmnt>
-    <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
-      <span>805 S Wells Ave</span>
-      <span>Reno, NV</span>
-      <span>Wed-Sun 11am-CLOSE </span>
-    </MediaQuery>
+  <StaticQuery
+    query={graphql`
+      query BioDataQuery {
+        dataJson {
+          name
+          profilePic
+          bio
+        }
+      }
+    `}
+    render={data => (
+      <>
+        <ContactStripLmnt>
+          <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
+            <span>805 S Wells Ave</span>
+            <span>Reno, NV</span>
+            <span>Wed-Sun 11am-CLOSE </span>
+          </MediaQuery>
 
-    <MediaQuery maxWidth={lmnts.Base.Screen.Sm}>
-      <Row justifyContent="center">
-        <span>805 S Wells Ave</span>
-        <span>Reno, NV</span>
-      </Row>
-      <Row justifyContent="center">
-        <span>Wed-Sun 11am-CLOSE </span>
-      </Row>
-      <Row justifyContent="center">
-        <a href="tel:7756223687" rel="noopener noreferrer" target="_blank">
-          775.622.3687
-        </a>
-        <a
-          href="https://www.instagram.com/vonbismarckreno/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Instagram
-        </a>
-      </Row>
-    </MediaQuery>
-  </ContactStripLmnt>
+          <MediaQuery maxWidth={lmnts.Base.Screen.Sm}>
+            <Row justifyContent="center">
+              <span>805 S Wells Ave</span>
+              <span>Reno, NV</span>
+            </Row>
+            <Row justifyContent="center">
+              <span>Wed-Sun 11am-CLOSE </span>
+            </Row>
+            <Row justifyContent="center">
+              <a
+                href="tel:7756223687"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                775.622.3687
+              </a>
+              <a
+                href="https://www.instagram.com/vonbismarckreno/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Instagram
+              </a>
+            </Row>
+          </MediaQuery>
+        </ContactStripLmnt>
+      </>
+    )}
+  />
 )
 
 export default PageGrid
