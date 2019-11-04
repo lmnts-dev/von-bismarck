@@ -75,12 +75,6 @@ const IndexPage = () => (
           justifyContent="space-between"
         >
           <Col>
-            <Ribbon />
-            <AbsolutePageBtn
-              label="Reserve a Table"
-              to="https://oktoberfest.vbreno.com/"
-              altBtn
-            />
             <ContactStrip />
           </Col>
         </Row>
@@ -122,14 +116,7 @@ const IndexPage = () => (
           height="29vh"
         >
           <Col>
-
             <ContactStrip />
-            <Ribbon />
-            <AbsolutePageBtn
-              label="Reserve a Table"
-              to="https://oktoberfest.vbreno.com/"
-              altBtn
-            />
           </Col>
         </Row>
       </FlexCol>
