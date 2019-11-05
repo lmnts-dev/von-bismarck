@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: src/data/forestry_data.json
+  path: src/data/menu_data.json
   label: Hours and Menu
 upload_dir: src/images
 public_path: "/src/images"
