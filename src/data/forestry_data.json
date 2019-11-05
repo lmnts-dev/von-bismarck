@@ -8,9 +8,9 @@
     "hours": ""
   },
   "menus": {
-    "cocktail_menu": "/static/Cocktails-2.pdf",
-    "wine_beer_menu": "/static/Wine-Beer-1.pdf",
-    "dinner_menu": "/static/Dinner-2.pdf",
-    "bar_snacks_menu": "/static/Snacks-1.pdf"
+    "cocktail_menu": "/public/Cocktails.pdf",
+    "wine_beer_menu": "/public/uploads/Wine-Beer.pdf",
+    "dinner_menu": "/public/Dinner.pdf",
+    "bar_snacks_menu": "/public/uploads/Snacks.pdf"
   }
 }
