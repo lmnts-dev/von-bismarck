@@ -1,4 +1,9 @@
 ---
 label: Hours and Menu
 hide_body: true
-fields: []
+fields:
+- name: label
+  type: text
+  config:
+    required: false
+  label: label
