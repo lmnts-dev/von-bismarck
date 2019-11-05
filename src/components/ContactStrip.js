@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import * as lmnts from '../data/Styles'
 import Row from '../components/Row'
+import Hours from '../components/Hours'
 import MediaQuery from 'react-responsive'
 
 const spacing = 70
@@ -63,7 +64,7 @@ const PageGrid = () => (
     <MediaQuery minWidth={lmnts.Base.Screen.Sm + 1}>
       <span>805 S Wells Ave</span>
       <span>Reno, NV</span>
-      <span>Wed-Sun 11am-CLOSE </span>
+      <span><Hours/></span>
     </MediaQuery>
 
     <MediaQuery maxWidth={lmnts.Base.Screen.Sm}>
@@ -72,7 +73,7 @@ const PageGrid = () => (
         <span>Reno, NV</span>
       </Row>
       <Row justifyContent="center">
-        <span>Wed-Sun 11am-CLOSE </span>
+        <span><Hours/></span>
       </Row>
       <Row justifyContent="center">
         <a href="tel:7756223687" rel="noopener noreferrer" target="_blank">
