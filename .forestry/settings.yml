@@ -7,8 +7,8 @@ sections:
 - type: document
   path: src/data/forestry_data.json
   label: Hours and Menu
-upload_dir: src/images
-public_path: "/src/images"
+upload_dir: ''
+public_path: "/static"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
