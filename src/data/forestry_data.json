@@ -1,0 +1,16 @@
+{
+  "hours_one": {
+    "label": "",
+    "hours": ""
+  },
+  "hours_two": {
+    "label": "",
+    "hours": ""
+  },
+  "menus": {
+    "cocktail_menu": "",
+    "wine_beer_menu": "",
+    "dinner_menu": "",
+    "bar_snacks_menu": ""
+  }
+}
