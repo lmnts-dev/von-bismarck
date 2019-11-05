@@ -62,5 +62,3 @@ fields:
       maxSize: 250
     label: Bar Snacks Menu
   label: Menus
-pages:
-- src/data/forestry_data.json
