@@ -1,3 +1,5 @@
+const config = require('./site-config.json')
+
 module.exports = {
   siteMetadata: {
     title: `Von Bismarck - Reno`,
