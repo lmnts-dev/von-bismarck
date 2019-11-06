@@ -55,12 +55,12 @@ fields:
     type: file
     config:
       maxSize: 250
-    label: Dinner Menu
+    label: Alll Day
   - name: bar_snacks_menu
     type: file
     config:
       maxSize: 250
-    label: Bar Snacks Menu
+    label: Late Night
   label: Menus
 pages:
 - src/data/forestry_data.json
