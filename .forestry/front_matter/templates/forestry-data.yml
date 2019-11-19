@@ -55,7 +55,7 @@ fields:
     type: file
     config:
       maxSize: 250
-    label: Alll Day
+    label: All Day
   - name: bar_snacks_menu
     type: file
     config:

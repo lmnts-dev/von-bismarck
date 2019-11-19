@@ -74,13 +74,13 @@ const Menu = props => (
           href={data.allDataJson.nodes[0].menus.dinner_menu}
           download
         >
-          <span>Dinner</span>
+          <span>All Day</span>
         </DownloadLink>
         <DownloadLink
           href={data.allDataJson.nodes[0].menus.bar_snacks_menu}
           download
         >
-          <span>Bar Snacks</span>
+          <span>Late Night</span>
         </DownloadLink>
       </>
     )}
