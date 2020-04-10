@@ -60,7 +60,7 @@ fields:
     type: file
     config:
       maxSize: 250
-    label: To Go
+    label: Family Meal To Go
   label: Menus
 pages:
 - src/data/forestry_data.json
