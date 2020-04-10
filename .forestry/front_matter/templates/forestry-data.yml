@@ -60,7 +60,7 @@ fields:
     type: file
     config:
       maxSize: 250
-    label: Late Night
+    label: To Go
   label: Menus
 pages:
 - src/data/forestry_data.json
