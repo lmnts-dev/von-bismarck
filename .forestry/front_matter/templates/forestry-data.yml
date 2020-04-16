@@ -41,26 +41,46 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: cocktail_menu
+  - name: menu_1_label
+    type: text
+    config:
+      required: false
+    label: Menu 1 label
+  - name: menu_1_file
     type: file
     config:
       maxSize: 250
-    label: Cocktail Menu
-  - name: wine_beer_menu
+    label: Menu 1 File
+  - name: menu_2_label
+    type: text
+    config:
+      required: false
+    label: Menu 2 Label
+  - name: menu_2_file
     type: file
     config:
       maxSize: 250
-    label: Wine + Beer Menu
-  - name: dinner_menu
+    label: Menu 2 File
+  - name: menu_3_label
+    type: text
+    config:
+      required: false
+    label: Menu 3 Label
+  - name: menu_3_file
     type: file
     config:
       maxSize: 250
-    label: All Day
-  - name: bar_snacks_menu
+    label: Menu 3 File
+  - name: menu_4_label
+    type: text
+    config:
+      required: false
+    label: Menu 4 Label
+  - name: menu_4_file
     type: file
     config:
       maxSize: 250
-    label: Family Meal To Go
+    label: Menu 4 File
   label: Menus
 pages:
 - src/data/forestry_data.json
