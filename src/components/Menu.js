@@ -1,5 +1,4 @@
-import React, { Component } from 'react'
-import { Link } from 'gatsby'
+import React from 'react'
 import styled from 'styled-components'
 
 import { graphql, StaticQuery } from 'gatsby'
@@ -47,10 +46,14 @@ const Menu = props => (
         allDataJson {
           nodes {
             menus {
-              bar_snacks_menu
-              cocktail_menu
-              dinner_menu
-              wine_beer_menu
+              menu_1_file
+              menu_1_label
+              menu_2_file
+              menu_2_label
+              menu_3_file
+              menu_3_label
+              menu_4_file
+              menu_4_label
             }
           }
         }
@@ -58,30 +61,42 @@ const Menu = props => (
     `}
     render={data => (
       <>
-        <DownloadLink
-          href={data.allDataJson.nodes[0].menus.cocktail_menu}
-          download
-        >
-          <span>Cocktails</span>
-        </DownloadLink>
-        <DownloadLink
-          href={data.allDataJson.nodes[0].menus.wine_beer_menu}
-          download
-        >
-          <span>Wine + Beer</span>
-        </DownloadLink>
-        <DownloadLink
-          href={data.allDataJson.nodes[0].menus.dinner_menu}
-          download
-        >
-          <span>All Day</span>
-        </DownloadLink>
-        <DownloadLink
-          href={data.allDataJson.nodes[0].menus.bar_snacks_menu}
-          download
-        >
-          <span>Late Night</span>
-        </DownloadLink>
+        { (data.allDataJson.nodes[0].menus.menu_1_label && data.allDataJson.nodes[0].menus.menu_1_file) &&
+          <DownloadLink
+            href={data.allDataJson.nodes[0].menus.menu_1_file}
+            download
+          >
+            <span>{data.allDataJson.nodes[0].menus.menu_1_label}</span>
+          </DownloadLink>
+        
+        }
+
+        { (data.allDataJson.nodes[0].menus.menu_2_label && data.allDataJson.nodes[0].menus.menu_2_file) &&
+          <DownloadLink
+            href={data.allDataJson.nodes[0].menus.menu_2_file}
+            download
+          >
+            <span>{data.allDataJson.nodes[0].menus.menu_2_label}</span>
+          </DownloadLink>
+        }
+
+        { (data.allDataJson.nodes[0].menus.menu_3_label && data.allDataJson.nodes[0].menus.menu_3_file) &&
+          <DownloadLink
+            href={data.allDataJson.nodes[0].menus.menu_3_file}
+            download
+          >
+            <span>{data.allDataJson.nodes[0].menus.menu_3_label}</span>
+          </DownloadLink>
+        }
+
+        { (data.allDataJson.nodes[0].menus.menu_4_label && data.allDataJson.nodes[0].menus.menu_4_file) &&
+          <DownloadLink
+            href={data.allDataJson.nodes[0].menus.menu_4_file}
+            download
+          >
+            <span>{data.allDataJson.nodes[0].menus.menu_4_label}</span>
+          </DownloadLink>
+        }
       </>
     )}
   />
