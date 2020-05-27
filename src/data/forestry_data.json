@@ -1,7 +1,7 @@
 {
   "hours_one": {
-    "label": "WED-SUN",
-    "hours": "11AM-CLOSE"
+    "label": "WED-SAT",
+    "hours": "4PM-CLOSE"
   },
   "hours_two": {
     "label": "",
