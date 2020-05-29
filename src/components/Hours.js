@@ -24,12 +24,12 @@ const Hours = props => (
     render={data => (
       <>
         {data.allDataJson.nodes[0].hours_one.label} &nbsp;
-        {data.allDataJson.nodes[0].hours_one.hours}
+        {data.allDataJson.nodes[0].hours_one.hours} &nbsp;
         {data.allDataJson.nodes[0].hours_two.label &&
           data.allDataJson.nodes[0].hours_two.label}
         &nbsp;
-        {data.allDataJson.nodes[0].hours_two.label &&
-          data.allDataJson.nodes[0].hours_two.label}
+        {data.allDataJson.nodes[0].hours_two.hours &&
+          data.allDataJson.nodes[0].hours_two.hours}
       </>
     )}
   />
