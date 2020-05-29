@@ -1,11 +1,11 @@
 {
   "hours_one": {
-    "label": "WED-SUN",
-    "hours": "11AM-CLOSE"
+    "label": "Wed - Sat",
+    "hours": "4pm - CLOSE"
   },
   "hours_two": {
-    "label": "",
-    "hours": ""
+    "label": "Sunday Brunch",
+    "hours": "10am - CLOSE"
   },
   "menus": {
     "cocktail_menu": "/03-04-2020 VB Cocktail Menu v2-4.pdf",
@@ -13,11 +13,11 @@
     "dinner_menu": "/03-04-20 VB Menu - Dinner-29.pdf",
     "bar_snacks_menu": "/04-16-20 Family Meal.pdf",
     "menu_1_label": "Cocktails, Wine + Beer",
-    "menu_1_file": "/03-04-2020 VB Cocktail Menu v2-4.pdf",
+    "menu_1_file": "/05-27-20-vb-cocktail-menu-v2-15.pdf",
     "menu_2_label": "All Day",
-    "menu_2_file": "/03-04-20 VB Menu - Dinner-29.pdf",
-    "menu_3_label": "Family Meal",
-    "menu_3_file": "/04-16-20 Family Meal.pdf",
+    "menu_2_file": "/05-27-20-vb-cocktail-menu-v2-15.pdf",
+    "menu_3_label": "Brunch",
+    "menu_3_file": "/05-29-2020-vb-brunch.pdf",
     "menu_4_label": "",
     "menu_4_file": ""
   }
