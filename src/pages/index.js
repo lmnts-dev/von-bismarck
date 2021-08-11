@@ -69,7 +69,6 @@ const IndexPage = () => (
             <PageBtn label="Contact" to="contact" animDirection="down" />
           </Col>
         </Row>
-        {/*
         <Row
           flexDirection="row"
           alignItems="center"
@@ -79,13 +78,12 @@ const IndexPage = () => (
             <Ribbon />	
             <AbsolutePageBtn	
               label="Reserve a Table"	
-              to="https://oktoberfest.vbreno.com/"	
+              to="https://von-bismarck.square.site/"	
               altBtn	
             />
             <ContactStrip />
           </Col>
         </Row>
-        */}
       </FlexCol>
     </MediaQuery>
 
@@ -125,14 +123,12 @@ const IndexPage = () => (
         >
           <Col>
             <ContactStrip />
-            {/*
             <Ribbon />	
             <AbsolutePageBtn	
               label="Reserve a Table"	
-              to="https://oktoberfest.vbreno.com/"	
+              to="https://von-bismarck.square.site/"	
               altBtn	
             />
-            */}
           </Col>
         </Row>
       </FlexCol>
