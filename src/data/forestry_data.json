@@ -1,10 +1,10 @@
 {
   "hours_one": {
-    "label": "Tues - Fri",
+    "label": "Tues - Fri:",
     "hours": "4pm - CLOSE "
   },
   "hours_two": {
-    "label": "Sat - Sun",
+    "label": "Sat - Sun:",
     "hours": "Noon - CLOSE"
   },
   "menus": {
