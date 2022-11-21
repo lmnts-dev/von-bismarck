@@ -123,7 +123,7 @@ const IndexPage = () => (
         >
           <Col>
             <ContactStrip />
-            <Ribbon />	
+            {/* <Ribbon />	 */}
             <AbsolutePageBtn	
               label="Reserve a Table"	
               to="https://von-bismarck.square.site/"	
