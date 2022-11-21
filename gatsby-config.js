@@ -5,7 +5,7 @@ module.exports = {
     title: `Von Bismarck - Reno`,
     description: `Von Bismarck is a modern family style restaurant inspired by the traditions of Eastern and Northern Europe with a focus on low intervention wine and traditional beer styles.`,
     longDescription:
-      'Von Bismarck is a modern family style restaurant inspired by the traditions of Eastern and Northern Europe with a focus on low intervention wine and traditional beer styles. Helmed by Chef Scott Arn, formerly of Mugaritz, Von Bismarck aims to focus the best of the old world through a modern lens and present it in an atmosphere of conviviality and generosity. We believe communal seating and family style presentation are conducive to this end. Sharing a meal, whether with those you love or complete strangers is essential to the human experience and all of us here at Von Bismarck hope to help you on that journey.',
+      'Von Bismarck is a modern family style restaurant inspired by the traditions of Eastern and Northern Europe with a focus on low intervention wine and traditional beer styles. Von Bismarck aims to focus the best of the old world through a modern lens and present it in an atmosphere of conviviality and generosity. We believe communal seating and family style presentation are conducive to this end. Sharing a meal, whether with those you love or complete strangers is essential to the human experience and all of us here at Von Bismarck hope to help you on that journey.',
     email: 'info@vbreno.com',
     phone: '775.622.3687',
     street: '805 S Wells Ave 89502',
