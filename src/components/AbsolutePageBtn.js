@@ -78,6 +78,7 @@ const PageBtnElement = styled.span`
   @media (max-width: ${lmnts.Base.Screen.Sm + 'px'}) {
     font-size: 4vw;
     width: 100%;
+    margin-bottom: 20px;
     text-align: center;
     &:before {
       display: none;

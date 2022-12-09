@@ -100,6 +100,13 @@ const Layout = ({ children, borderColor, bgColor, wrapBg }) => (
             href="https://fonts.googleapis.com/css?family=Poppins:500"
             rel="stylesheet"
           />
+          <script src="https://widgets.resy.com/embed.js"></script>
+          <script>{`
+          window.onload = function() { 
+            resyWidget.addButton(document.getElementById('resyButton-ESrNtPyK_uHwbEbpgXBrl'), {"venueId":67440,"apiKey":"2tpYJ5pODAXc7VwrYjKGFcsQ4ZoRfpXq","replace":true,});
+            }
+          `}
+          </script>
         </Helmet>
         <PageGrid wrapBg={props => wrapBg} borderColor={props => borderColor}>
           {children}

@@ -81,6 +81,7 @@ const IndexPage = () => (
               to="https://von-bismarck.square.site/"	
               altBtn	
             />
+            <a class="resy" href="https://resy.com/cities/rno/von-bismarck" id="resyButton-ESrNtPyK_uHwbEbpgXBrl">Book your Von Bismarck reservation on Resy</a>
             <ContactStrip />
           </Col>
         </Row>
@@ -129,11 +130,11 @@ const IndexPage = () => (
               to="https://von-bismarck.square.site/"	
               altBtn	
             />
+            <a class="resy" href="https://resy.com/cities/rno/von-bismarck" id="resyButton-ESrNtPyK_uHwbEbpgXBrl">Book your Von Bismarck reservation on Resy</a>
           </Col>
         </Row>
       </FlexCol>
     </MediaQuery>
-
     <Footer />
   </Layout>
 )
