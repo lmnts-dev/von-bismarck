@@ -94,7 +94,7 @@ const Layout = ({ children, borderColor, bgColor, wrapBg }) => (
     `}
     render={data => (
       <>
-        <GlobalStyle bgColor={props => bgColor} />
+        <GlobalStyle  bgColor={props => bgColor} />
         <Helmet>
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:500"

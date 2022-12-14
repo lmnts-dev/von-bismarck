@@ -75,13 +75,15 @@ const IndexPage = () => (
           justifyContent="space-between"
         >
           <Col>
-            {/* <Ribbon />	 */}
-            <AbsolutePageBtn	
-              label="Reserve a Table"	
-              to="https://von-bismarck.square.site/"	
-              altBtn	
-            />
-            <a class="resy" href="https://resy.com/cities/rno/von-bismarck" id="resyButton-ESrNtPyK_uHwbEbpgXBrl">Book your Von Bismarck reservation on Resy</a>
+            {/* <Ribbon />   */}
+            {/* <AbsolutePageBtn  
+              label="Reserve a Table" 
+              to="https://von-bismarck.square.site/"  
+              altBtn  
+            /> */}
+            <div style={{marginTop: '20px'}}>
+              <a class="resy" href="https://resy.com/cities/rno/von-bismarck" id="resyButton-ESrNtPyK_uHwbEbpgXBrl">Book your Von Bismarck reservation on Resy</a>
+            </div>
             <ContactStrip />
           </Col>
         </Row>
@@ -124,13 +126,15 @@ const IndexPage = () => (
         >
           <Col>
             <ContactStrip />
-            {/* <Ribbon />	 */}
-            <AbsolutePageBtn	
-              label="Reserve a Table"	
-              to="https://von-bismarck.square.site/"	
-              altBtn	
-            />
+            {/* <Ribbon />   */}
+            {/* <AbsolutePageBtn  
+              label="Reserve a Table" 
+              to="https://von-bismarck.square.site/"  
+              altBtn  
+            /> */}
+            <div style={{marginTop: '20px'}}>
             <a class="resy" href="https://resy.com/cities/rno/von-bismarck" id="resyButton-ESrNtPyK_uHwbEbpgXBrl">Book your Von Bismarck reservation on Resy</a>
+            </div>
           </Col>
         </Row>
       </FlexCol>
@@ -140,3 +144,4 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
