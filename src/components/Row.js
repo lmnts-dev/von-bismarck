@@ -4,22 +4,22 @@ import styled from 'styled-components'
 const RowElement = styled.div`
   display: flex;
   width: 100%;
-  ${props => {
+  ${(props) => {
     if (props.height)
       return `
-        height: ${props.height}
+        height: ${props.height};
     `
     if (props.flexDirection)
       return `
-        flex-direction: ${props.flexDirection}
+        flex-direction: ${props.flexDirection};
     `
     if (props.alignItems)
       return `
-        align-items: ${props.alignItems}
+        align-items: ${props.alignItems};
     `
     if (props.justifyContent)
       return `
-        justify-content: ${props.justifyContent}
+        justify-content: ${props.justifyContent};
     `
   }};
 `
@@ -29,7 +29,7 @@ const Row = ({
   height,
   flexDirection,
   alignItems,
-  justifyContent
+  justifyContent,
 }) => (
   <RowElement
     height={height}

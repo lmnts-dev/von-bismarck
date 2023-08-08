@@ -75,15 +75,25 @@ const IndexPage = () => (
           justifyContent="space-between"
         >
           <Col>
-            {/* <Ribbon />   */}
-            {/* <AbsolutePageBtn  
-              label="Reserve a Table" 
-              to="https://von-bismarck.square.site/"  
-              altBtn  
-            /> */}
-            <div style={{marginTop: '20px'}}>
-              <a class="resy" href="https://resy.com/cities/rno/von-bismarck" id="resyButton-ESrNtPyK_uHwbEbpgXBrl">Book your Von Bismarck reservation on Resy</a>
-            </div>
+            <PageBtn
+              label="Reserve a Table"
+              to="https://resy.com/cities/rno/von-bismarck/"
+            />
+          </Col>
+        </Row>
+        <Row
+          flexDirection="row"
+          alignItems="center"
+          justifyContent="space-between"
+        >
+          <Col>
+            <Ribbon />
+
+            <AbsolutePageBtn
+              label="Reserve Oktoberfest Table"
+              to="https://von-bismarck.square.site/"
+              altBtn
+            />
             <ContactStrip />
           </Col>
         </Row>
@@ -126,15 +136,20 @@ const IndexPage = () => (
         >
           <Col>
             <ContactStrip />
-            {/* <Ribbon />   */}
-            {/* <AbsolutePageBtn  
-              label="Reserve a Table" 
-              to="https://von-bismarck.square.site/"  
-              altBtn  
-            /> */}
-            <div style={{marginTop: '20px'}}>
-            <a class="resy" href="https://resy.com/cities/rno/von-bismarck" id="resyButton-ESrNtPyK_uHwbEbpgXBrl">Book your Von Bismarck reservation on Resy</a>
-            </div>
+            <Ribbon />
+            <Row justifyContent="center">
+              <AbsolutePageBtn
+                label="Reserve a Table"
+                to="https://resy.com/cities/rno/von-bismarck/"
+                id="resyButton-ESrNtPyK_uHwbEbpgXBrl"
+                altBtn
+              />
+              <AbsolutePageBtn
+                label="Make Oktoberfest Reservation"
+                to="https://von-bismarck.square.site/"
+                altBtn
+              />
+            </Row>
           </Col>
         </Row>
       </FlexCol>
@@ -144,4 +159,3 @@ const IndexPage = () => (
 )
 
 export default IndexPage
-

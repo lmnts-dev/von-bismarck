@@ -9,9 +9,11 @@ const PageBtnElement = styled.span`
   position: relative;
   color: ${lmnts.Clr.Navy};
   text-decoration: none;
+  margin-left: ${lmnts.Base.Size / 1.5}px;
+  margin-right: ${lmnts.Base.Size / 1.5}px;
   line-height: 0;
   align-items: center;
-  ${props => {
+  ${(props) => {
     if (props.altBtn)
       return `
         font-size: 1vw;
@@ -31,7 +33,7 @@ const PageBtnElement = styled.span`
     @media (max-width: ${lmnts.Base.Screen.Sm + 'px'}) {
       height: 4px;
     }
-    ${props => {
+    ${(props) => {
       if (props.altBtn)
         return `
         top: 50%;
@@ -46,7 +48,7 @@ const PageBtnElement = styled.span`
 
   &:before {
     top: -2px;
-    ${props => {
+    ${(props) => {
       if (props.altBtn)
         return `
         top: 50%;
@@ -57,7 +59,7 @@ const PageBtnElement = styled.span`
 
   &:after {
     bottom: 0;
-    ${props => {
+    ${(props) => {
       if (props.altBtn)
         return `
         right: ${lmnts.Base.Size / -1.5}px;
@@ -83,14 +85,15 @@ const PageBtnElement = styled.span`
     &:before {
       display: none;
     }
-    ${props => {
+    ${(props) => {
       if (props.lineTop)
         return `
         &:before {
           display: block;
         }
     `
-    if (props.altBtn) return `
+      if (props.altBtn)
+        return `
         width: auto !important;
         &:before {
           display: block;
@@ -147,7 +150,7 @@ const PageLink = styled.a`
     span {
       width: 100%;
     }
-    ${props => {
+    ${(props) => {
       if (props.altBtn)
         return `
         span {
