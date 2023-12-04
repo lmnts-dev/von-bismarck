@@ -73,7 +73,7 @@ const Menu = props => (
 
         { (data.allDataJson.nodes[0].menus.menu_2_label && data.allDataJson.nodes[0].menus.menu_2_file) &&
           <DownloadLink
-            href='https://github.com/lmnts-dev/von-bismarck/blob/20c851cc839b8020009b2b43cbf7b883806e2bba/11-17-23%20VB%20-%20Menu%202020-64%20copy.pdf'
+            href={data.allDataJson.nodes[0].menus.menu_2_file}
             download
           >
             <span>{data.allDataJson.nodes[0].menus.menu_2_label}</span>
