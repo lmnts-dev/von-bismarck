@@ -87,7 +87,7 @@ const IndexPage = () => (
           justifyContent="space-between"
         >
           <Col>
-            <Ribbon />
+            {/* <Ribbon /> */}
 
             <AbsolutePageBtn
               label="Reserve Oktoberfest Table"
@@ -142,11 +142,6 @@ const IndexPage = () => (
                 label="Reserve a Table"
                 to="https://resy.com/cities/rno/von-bismarck/"
                 id="resyButton-ESrNtPyK_uHwbEbpgXBrl"
-                altBtn
-              />
-              <AbsolutePageBtn
-                label="Make Oktoberfest Reservation"
-                to="https://von-bismarck.square.site/"
                 altBtn
               />
             </Row>
