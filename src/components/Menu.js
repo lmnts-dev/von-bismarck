@@ -73,7 +73,7 @@ const Menu = props => (
 
         { (data.allDataJson.nodes[0].menus.menu_2_label && data.allDataJson.nodes[0].menus.menu_2_file) &&
           <DownloadLink
-            href='../../../11-17-23 VB - Menu 2020-64 copy.pdf'
+            href={data.allDataJson.nodes[0].menus.menu_2_file}
             download
           >
             <span>{data.allDataJson.nodes[0].menus.menu_2_label}</span>
