@@ -101,12 +101,12 @@ const Layout = ({ children, borderColor, bgColor, wrapBg }) => (
             rel="stylesheet"
           />
           <script src="https://widgets.resy.com/embed.js"></script>
-          <script>{`
+          {/* <script>{`
           window.onload = function() { 
             resyWidget.addButton(document.getElementById('resyButton-ESrNtPyK_uHwbEbpgXBrl'), {"venueId":67440,"apiKey":"2tpYJ5pODAXc7VwrYjKGFcsQ4ZoRfpXq","replace":true,});
             }
           `}
-          </script>
+          </script> */}
         </Helmet>
         <PageGrid wrapBg={props => wrapBg} borderColor={props => borderColor}>
           {children}
