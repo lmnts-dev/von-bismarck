@@ -78,7 +78,6 @@ const IndexPage = () => (
             <PageBtn
               label="Reserve a Table"
               to="https://www.opentable.com/r/von-bismarck-reservations-reno?restref=1294951&lang=en-US&ot_source=Restaurant%20website"
-              altBtn
             />
           </Col>
         </Row>
