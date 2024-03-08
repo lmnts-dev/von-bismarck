@@ -77,7 +77,7 @@ const IndexPage = () => (
           <Col>
             <PageBtn
               label="Reserve a Table"
-              to="https://resy.com/cities/rno/von-bismarck/"
+              to=" https://www.opentable.com/r/von-bismarck-reservations-reno?restref=1294951&lang=en-US&ot_source=Restaurant%20website"
             />
           </Col>
         </Row>
@@ -140,8 +140,8 @@ const IndexPage = () => (
             <Row justifyContent="center">
               <AbsolutePageBtn
                 label="Reserve a Table"
-                to="https://resy.com/cities/rno/von-bismarck/"
-                id="resyButton-ESrNtPyK_uHwbEbpgXBrl"
+                to=" https://www.opentable.com/r/von-bismarck-reservations-reno?restref=1294951&lang=en-US&ot_source=Restaurant%20website"
+                // id="resyButton-ESrNtPyK_uHwbEbpgXBrl"
                 altBtn
               />
             </Row>
