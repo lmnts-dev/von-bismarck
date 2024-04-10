@@ -80,14 +80,13 @@ const Menu = props => (
           </DownloadLink>
         }
 
-        { (data.allDataJson.nodes[0].menus.menu_3_label && data.allDataJson.nodes[0].menus.menu_3_file) &&
-               <DownloadLink
+        <DownloadLink
             href='/11-17-23%20VB%20-%20Menu%202020-64%20copy.pdf'
             download
           >
             <span>Dinner</span>
           </DownloadLink>
-        }
+        
 
         { (data.allDataJson.nodes[0].menus.menu_4_label && data.allDataJson.nodes[0].menus.menu_4_file) &&
           <DownloadLink
