@@ -63,7 +63,7 @@ const Menu = props => (
       <>
         { (data.allDataJson.nodes[0].menus.menu_1_label && data.allDataJson.nodes[0].menus.menu_1_file) &&
           <DownloadLink
-            href='/11-17-23%20VB%20Cocktail%20Menu%202021-19.pdf'
+            href='/042024-VB-Cocktail-Menu-2021-4.pdf'
             download
           >
             <span>{data.allDataJson.nodes[0].menus.menu_1_label}</span>
@@ -73,19 +73,19 @@ const Menu = props => (
 
         { (data.allDataJson.nodes[0].menus.menu_2_label && data.allDataJson.nodes[0].menus.menu_2_file) &&
           <DownloadLink
-            href='/11-17-23%20VB%20-%20Menu%202020-64%20copy.pdf'
+            href='/042024-VB-Lunch-Menu-2021-6.pdf'
             download
           >
-            <span>{data.allDataJson.nodes[0].menus.menu_2_label}</span>
+            <span>Lunch</span>
           </DownloadLink>
         }
 
         { (data.allDataJson.nodes[0].menus.menu_3_label && data.allDataJson.nodes[0].menus.menu_3_file) &&
-          <DownloadLink
-            href={data.allDataJson.nodes[0].menus.menu_3_file}
+               <DownloadLink
+            href='/11-17-23%20VB%20-%20Menu%202020-64%20copy.pdf'
             download
           >
-            <span>{data.allDataJson.nodes[0].menus.menu_3_label}</span>
+            <span>Dinner</span>
           </DownloadLink>
         }
 
@@ -103,3 +103,4 @@ const Menu = props => (
 )
 
 export default Menu
+
