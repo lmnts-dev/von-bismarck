@@ -89,11 +89,11 @@ const IndexPage = () => (
           <Col>
             {/* <Ribbon /> */}
 
-            <AbsolutePageBtn
+            {/* <AbsolutePageBtn
               label="Reserve Oktoberfest Table"
               to="https://von-bismarck.square.site/"
               altBtn
-            />
+            /> */}
             <ContactStrip />
           </Col>
         </Row>
