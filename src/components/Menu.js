@@ -81,7 +81,7 @@ const Menu = props => (
         }
 
         <DownloadLink
-            href='/11-17-23%20VB%20-%20Menu%202020-64%20copy.pdf'
+            href='/042024-VB-Dinner-Menu-2020-9.pdf'
             download
           >
             <span>Dinner</span>
