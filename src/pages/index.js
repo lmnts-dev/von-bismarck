@@ -87,13 +87,12 @@ const IndexPage = () => (
           justifyContent="space-between"
         >
           <Col>
-            {/* <Ribbon /> */}
-
-            {/* <AbsolutePageBtn
+            <Ribbon /> 
+            <AbsolutePageBtn
               label="Reserve Oktoberfest Table"
               to="https://von-bismarck.square.site/"
               altBtn
-            /> */}
+            />
             <ContactStrip />
           </Col>
         </Row>
@@ -136,7 +135,7 @@ const IndexPage = () => (
         >
           <Col>
             <ContactStrip />
-            {/* <Ribbon /> */}
+            <Ribbon />
             <Row justifyContent="center">
               <AbsolutePageBtn
                 label="Reserve a Table"
