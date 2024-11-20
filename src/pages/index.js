@@ -135,7 +135,7 @@ const IndexPage = () => (
         >
           <Col>
             <ContactStrip />
-            <Ribbon />
+            {/* <Ribbon /> */}
             <Row justifyContent="center">
               <AbsolutePageBtn
                 label="Reserve a Table"
@@ -143,11 +143,11 @@ const IndexPage = () => (
                 id="resyButton-ESrNtPyK_uHwbEbpgXBrl"
                 altBtn
               />
-              <AbsolutePageBtn
+             {/*  <AbsolutePageBtn
                 label="Make Oktoberfest Reservation"
                 to="https://von-bismarck.square.site/"
                 altBtn
-              />
+              /> */}
             </Row>
           </Col>
         </Row>
