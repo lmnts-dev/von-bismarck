@@ -81,7 +81,7 @@ const IndexPage = () => (
             />
           </Col>
         </Row>
-        <Row
+       {/*  <Row
           flexDirection="row"
           alignItems="center"
           justifyContent="space-between"
@@ -95,7 +95,7 @@ const IndexPage = () => (
             />
             <ContactStrip />
           </Col>
-        </Row>
+        </Row> */}
       </FlexCol>
     </MediaQuery>
 
