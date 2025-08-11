@@ -60,7 +60,7 @@ const Container = styled.div`
 const Oktoberfest = ({ children }) => (
   <Container>
     <span></span>
-    OktoberFest: September 22nd
+    OktoberFest: September 21st - Reserve by Sept 16th
     {children}
     <span></span>
   </Container>

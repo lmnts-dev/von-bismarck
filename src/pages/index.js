@@ -135,7 +135,7 @@ const IndexPage = () => (
         >
           <Col>
             <ContactStrip />
-            {/* <Ribbon /> */}
+            <Ribbon />
             <Row justifyContent="center">
               <AbsolutePageBtn
                 label="Reserve a Table"

@@ -63,7 +63,7 @@ const Menu = props => (
       <>
         { (data.allDataJson.nodes[0].menus.menu_1_label && data.allDataJson.nodes[0].menus.menu_1_file) &&
           <DownloadLink
-            href='/042024-VB-Cocktail-Menu-2021-4.pdf'
+            href='/VB-Cocktail-2025.pdf'
             download
           >
             <span>{data.allDataJson.nodes[0].menus.menu_1_label}</span>
@@ -73,7 +73,7 @@ const Menu = props => (
 
         { (data.allDataJson.nodes[0].menus.menu_2_label && data.allDataJson.nodes[0].menus.menu_2_file) &&
           <DownloadLink
-            href='/11_12_24 LUNCH.pdf'
+            href='/VB-Lunch-2025.pdf'
             download
           >
             <span>Lunch</span>
@@ -81,7 +81,7 @@ const Menu = props => (
         }
 
         <DownloadLink
-            href='/11_12_24 DINNER Von Bismarck-Menu.pdf'
+            href='/VB-Dinner-2025.pdf'
             download
           >
             <span>Dinner</span>
