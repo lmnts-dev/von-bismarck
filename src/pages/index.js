@@ -88,7 +88,8 @@ const IndexPage = () => (
         >
           <Col>
             <Ribbon /> 
-            <p className='ribbon-disclaimer-desktop'>Reserve by Sept 16th</p>
+            <span></span>
+            <p>Reserve by Sept 16th</p>
             <AbsolutePageBtn
               label="Reserve Oktoberfest Table"
               to="https://von-bismarck.square.site/"
@@ -137,7 +138,8 @@ const IndexPage = () => (
           <Col>
             <ContactStrip />
             <Ribbon />
-            <p className='ribbon-disclaimer-mobile'>Reserve by Sept 16th</p>
+            <p>Reserve by Sept 16th</p>
+            <span></span>
             <Row justifyContent="center">
               <AbsolutePageBtn
                 label="Reserve a Table"

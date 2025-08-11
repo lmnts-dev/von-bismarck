@@ -85,13 +85,5 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${props => borderColor};
     color: ${lmnts.Clr.Navy};
   }
-
-  .ribbon-disclaimer-desktop{
-    margin-top: 12rem;
-  }
-
-   .ribbon-disclaimer-mobile{
-    margin-bottom: 12rem;
-  }
 `
 export default GlobalStyle
