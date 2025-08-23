@@ -81,13 +81,15 @@ const IndexPage = () => (
             />
           </Col>
         </Row>
-       {/*  <Row
+        <Row
           flexDirection="row"
           alignItems="center"
           justifyContent="space-between"
         >
           <Col>
             <Ribbon /> 
+            <p>Reserve by Sept 16th</p>
+            <br/>
             <AbsolutePageBtn
               label="Reserve Oktoberfest Table"
               to="https://von-bismarck.square.site/"
@@ -95,7 +97,7 @@ const IndexPage = () => (
             />
             <ContactStrip />
           </Col>
-        </Row> */}
+        </Row>
       </FlexCol>
     </MediaQuery>
 
@@ -135,7 +137,9 @@ const IndexPage = () => (
         >
           <Col>
             <ContactStrip />
-            {/* <Ribbon /> */}
+            <Ribbon />
+            <br/>
+            <p>Reserve by Sept 16th</p>
             <Row justifyContent="center">
               <AbsolutePageBtn
                 label="Reserve a Table"
